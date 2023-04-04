@@ -5,11 +5,11 @@ variable "aws_region" {
 }
 
 variable "accessKey" {
-  default = "AKIATPVDGTEAELANXL2Q"
+  default = ""
 }
 
 variable "secretKey" {
-  default = "9uKxVpE2efjqclwRbhC/BpxZZT0ZxrXPOLwKjBMo"
+  default = ""
 }
 
 # A map of the tags to apply to various resources. The required tags are:
@@ -63,6 +63,3 @@ variable "apigw_log_retention" {
 }
 
 #variable "public_subnets" {}
-
-
-
